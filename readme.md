@@ -112,7 +112,7 @@
   <td>9</td>
   <td>50</td>
   <td><code>/5 | x3 | &lt;&lt;</code></td>
-  <td>1) <code>/5 | x3 | x3 | &lt;&lt;</code><br>2) <code>/5 | x3 | &lt;&lt; | x3</code><br>3) <code>/5 | &lt;&lt; | x3 | x3</code><br>4) <code>x3 | /5 | x3 | &lt;&lt;</code><br>5) <code>x3 | /5 | &lt;&lt; | x3</code><br>6) <code>x3 | x3 | /5 | &lt;&lt;</code><br>7) <code>x3 | x3 | &lt;&lt; | /5</code><br>8) <code>x3 | &lt;&lt; | /5 | x3</code><br>9) <code>x3 | &lt;&lt; | x3 | /5</code><br>10) <code>&lt;&lt; | /5 | x3 | x3</code><br>11) <code>&lt;&lt; | x3 | /5 | x3</code><br>12) <code>&lt;&lt; | x3 | x3 | /5</code></td>
+  <td>1) <code>x3 | x3 | &lt;&lt; | /5</code><br>2) <code>/5 | x3 | x3 | &lt;&lt;</code><br>3) <code>/5 | &lt;&lt; | x3 | x3</code><br>4) <code>x3 | /5 | x3 | &lt;&lt;</code><br>5) <code>x3 | /5 | &lt;&lt; | x3</code><br>6) <code>x3 | x3 | /5 | &lt;&lt;</code><br>7) <code>/5 | x3 | &lt;&lt; | x3</code><br>8) <code>x3 | &lt;&lt; | /5 | x3</code><br>9) <code>x3 | &lt;&lt; | x3 | /5</code><br>10) <code>&lt;&lt; | /5 | x3 | x3</code><br>11) <code>&lt;&lt; | x3 | /5 | x3</code><br>12) <code>&lt;&lt; | x3 | x3 | /5</code></td>
 </tr>
 <tr>
   <td>11</td>
@@ -408,7 +408,7 @@
   <td>13</td>
   <td>55</td>
   <td><code>+9 | +/- | &lt;&lt;</code></td>
-  <td>1) <code>+/- | +9 | +/- | &lt;&lt; | +9</code><br>2) <code>+/- | +9 | &lt;&lt; | +/- | +9</code><br>3) <code>+/- | &lt;&lt; | +9 | +9</code><br>4) <code>&lt;&lt; | +/- | +9 | +9</code></td>
+  <td>1) <code>+/- | &lt;&lt; | +9 | +9</code><br>2) <code>&lt;&lt; | +/- | +9 | +9</code><br>3) <code>+/- | +9 | +/- | &lt;&lt; | +9</code><br>4) <code>+/- | +9 | &lt;&lt; | +/- | +9</code></td>
 </tr>
 <tr>
   <td>48</td>
@@ -432,7 +432,7 @@
   <td>126</td>
   <td>111</td>
   <td><code>x3 | -9 | +/- | &lt;&lt;</code></td>
-  <td>1) <code>x3 | +/- | &lt;&lt; | -9 | x3 | +/-</code><br>2) <code>x3 | +/- | &lt;&lt; | -9 | +/- | x3</code><br>3) <code>x3 | &lt;&lt; | +/- | -9 | x3 | +/-</code><br>4) <code>x3 | &lt;&lt; | +/- | -9 | +/- | x3</code><br>5) <code>+/- | x3 | &lt;&lt; | -9 | x3 | +/-</code><br>6) <code>+/- | x3 | &lt;&lt; | -9 | +/- | x3</code><br>7) <code>+/- | &lt;&lt; | x3 | -9 | x3 | +/-</code><br>8) <code>+/- | &lt;&lt; | x3 | -9 | +/- | x3</code><br>9) <code>&lt;&lt; | x3 | +/- | -9 | x3 | +/-</code><br>10) <code>&lt;&lt; | x3 | +/- | -9 | +/- | x3</code><br>11) <code>&lt;&lt; | +/- | x3 | -9 | x3 | +/-</code><br>12) <code>&lt;&lt; | +/- | x3 | -9 | +/- | x3</code></td>
+  <td>1) <code>+/- | &lt;&lt; | x3 | -9 | x3 | +/-</code><br>2) <code>x3 | +/- | &lt;&lt; | -9 | x3 | +/-</code><br>3) <code>x3 | &lt;&lt; | +/- | -9 | x3 | +/-</code><br>4) <code>x3 | &lt;&lt; | +/- | -9 | +/- | x3</code><br>5) <code>+/- | x3 | &lt;&lt; | -9 | x3 | +/-</code><br>6) <code>+/- | x3 | &lt;&lt; | -9 | +/- | x3</code><br>7) <code>x3 | +/- | &lt;&lt; | -9 | +/- | x3</code><br>8) <code>+/- | &lt;&lt; | x3 | -9 | +/- | x3</code><br>9) <code>&lt;&lt; | x3 | +/- | -9 | x3 | +/-</code><br>10) <code>&lt;&lt; | x3 | +/- | -9 | +/- | x3</code><br>11) <code>&lt;&lt; | +/- | x3 | -9 | x3 | +/-</code><br>12) <code>&lt;&lt; | +/- | x3 | -9 | +/- | x3</code></td>
 </tr>
 <tr>
   <td>51</td>
@@ -512,7 +512,7 @@
   <td>13</td>
   <td>100</td>
   <td><code>/2 | Reverse</code></td>
-  <td></td>
+  <td>1) <code>/2 | /2 | Reverse | /2 | /2</code></td>
 </tr>
 <tr>
   <td>61</td>
@@ -568,7 +568,7 @@
   <td>13</td>
   <td>0</td>
   <td><code>+7 | +8 | Reverse | +9</code></td>
-  <td>1) <code>+7 | +7 | +8 | +9 | Reverse</code><br>2) <code>+7 | +7 | +9 | +8 | Reverse</code><br>3) <code>+7 | +8 | +7 | +9 | Reverse</code><br>4) <code>+7 | +8 | +8 | +8 | Reverse</code><br>5) <code>+7 | +8 | +9 | +7 | Reverse</code><br>6) <code>+7 | +9 | +7 | +8 | Reverse</code><br>7) <code>+7 | +9 | +8 | +7 | Reverse</code><br>8) <code>+8 | +7 | +7 | +9 | Reverse</code><br>9) <code>+8 | +7 | +8 | +8 | Reverse</code><br>10) <code>+8 | +7 | +9 | +7 | Reverse</code><br>11) <code>+8 | +8 | +7 | +8 | Reverse</code><br>12) <code>+8 | +8 | +8 | +7 | Reverse</code><br>13) <code>+8 | +9 | +7 | +7 | Reverse</code><br>14) <code>+9 | +7 | +7 | +8 | Reverse</code><br>15) <code>+9 | +7 | +8 | +7 | Reverse</code><br>16) <code>+9 | +8 | +7 | +7 | Reverse</code></td>
+  <td>1) <code>+8 | +7 | +8 | +8 | Reverse</code><br>2) <code>+7 | +7 | +8 | +9 | Reverse</code><br>3) <code>+7 | +8 | +7 | +9 | Reverse</code><br>4) <code>+7 | +8 | +8 | +8 | Reverse</code><br>5) <code>+7 | +8 | +9 | +7 | Reverse</code><br>6) <code>+7 | +9 | +7 | +8 | Reverse</code><br>7) <code>+7 | +9 | +8 | +7 | Reverse</code><br>8) <code>+8 | +7 | +7 | +9 | Reverse</code><br>9) <code>+7 | +7 | +9 | +8 | Reverse</code><br>10) <code>+8 | +7 | +9 | +7 | Reverse</code><br>11) <code>+8 | +8 | +7 | +8 | Reverse</code><br>12) <code>+8 | +8 | +8 | +7 | Reverse</code><br>13) <code>+8 | +9 | +7 | +7 | Reverse</code><br>14) <code>+9 | +7 | +7 | +8 | Reverse</code><br>15) <code>+9 | +7 | +8 | +7 | Reverse</code><br>16) <code>+9 | +8 | +7 | +7 | Reverse</code></td>
 </tr>
 <tr>
   <td>68</td>
@@ -592,7 +592,7 @@
   <td>81</td>
   <td>7</td>
   <td><code>-9 | x3 | +/- | +4 | Reverse</code></td>
-  <td>1) <code>-9 | x3 | x3 | +/- | Reverse</code><br>2) <code>-9 | x3 | x3 | Reverse | +/-</code><br>3) <code>-9 | x3 | +/- | x3 | Reverse</code><br>4) <code>-9 | +/- | x3 | x3 | Reverse</code><br>5) <code>-9 | +/- | +4 | x3 | Reverse</code><br>6) <code>-9 | +4 | x3 | x3 | Reverse</code><br>7) <code>-9 | +4 | +4 | x3 | Reverse</code><br>8) <code>x3 | -9 | x3 | -9 | x3</code><br>9) <code>x3 | x3 | x3 | -9 | Reverse</code><br>10) <code>x3 | x3 | Reverse | -9 | x3</code><br>11) <code>x3 | Reverse | x3 | -9 | x3</code><br>12) <code>+4 | -9 | x3 | x3 | Reverse</code><br>13) <code>+4 | -9 | +4 | x3 | Reverse</code><br>14) <code>+4 | x3 | x3 | -9 | -9</code><br>15) <code>+4 | +4 | -9 | x3 | Reverse</code></td>
+  <td>1) <code>x3 | -9 | x3 | -9 | x3</code><br>2) <code>-9 | x3 | x3 | +/- | Reverse</code><br>3) <code>-9 | x3 | +/- | x3 | Reverse</code><br>4) <code>-9 | +/- | x3 | x3 | Reverse</code><br>5) <code>-9 | +/- | +4 | x3 | Reverse</code><br>6) <code>-9 | +4 | x3 | x3 | Reverse</code><br>7) <code>-9 | +4 | +4 | x3 | Reverse</code><br>8) <code>-9 | x3 | x3 | Reverse | +/-</code><br>9) <code>x3 | x3 | x3 | -9 | Reverse</code><br>10) <code>x3 | x3 | Reverse | -9 | x3</code><br>11) <code>x3 | Reverse | x3 | -9 | x3</code><br>12) <code>+4 | -9 | x3 | x3 | Reverse</code><br>13) <code>+4 | -9 | +4 | x3 | Reverse</code><br>14) <code>+4 | x3 | x3 | -9 | -9</code><br>15) <code>+4 | +4 | -9 | x3 | Reverse</code></td>
 </tr>
 <tr>
   <td>71</td>
@@ -704,7 +704,7 @@
   <td>196</td>
   <td>0</td>
   <td><code>1 | +12 | Reverse | x13 | &lt;&lt;</code></td>
-  <td>1) <code>1 | 1 | x13 | +12 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>2) <code>1 | 1 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>3) <code>1 | 1 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>4) <code>1 | +12 | 1 | &lt;&lt; | x13 | 1 | Reverse | &lt;&lt;</code><br>5) <code>1 | +12 | +12 | +12 | x13 | Reverse | +12</code><br>6) <code>1 | +12 | Reverse | Reverse | x13 | 1 | Reverse | &lt;&lt;</code><br>7) <code>1 | +12 | Reverse | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>8) <code>1 | +12 | x13 | 1 | 1 | &lt;&lt; | Reverse | &lt;&lt;</code><br>9) <code>1 | +12 | x13 | 1 | Reverse | 1 | &lt;&lt; | &lt;&lt;</code><br>10) <code>1 | +12 | x13 | 1 | Reverse | Reverse | Reverse | &lt;&lt;</code><br>11) <code>1 | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>12) <code>1 | +12 | x13 | 1 | &lt;&lt; | 1 | Reverse | &lt;&lt;</code><br>13) <code>1 | +12 | x13 | Reverse | Reverse | 1 | Reverse | &lt;&lt;</code><br>14) <code>1 | +12 | x13 | Reverse | &lt;&lt; | Reverse | 1 | Reverse</code><br>15) <code>1 | +12 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>16) <code>1 | +12 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>17) <code>1 | x13 | 1 | &lt;&lt; | x13 | 1 | Reverse | &lt;&lt;</code><br>18) <code>1 | x13 | +12 | +12 | x13 | Reverse | +12</code><br>19) <code>1 | x13 | Reverse | Reverse | x13 | 1 | Reverse | &lt;&lt;</code><br>20) <code>1 | x13 | Reverse | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>21) <code>1 | x13 | x13 | 1 | 1 | &lt;&lt; | Reverse | &lt;&lt;</code><br>22) <code>1 | x13 | x13 | 1 | Reverse | 1 | &lt;&lt; | &lt;&lt;</code><br>23) <code>1 | x13 | x13 | 1 | Reverse | Reverse | Reverse | &lt;&lt;</code><br>24) <code>1 | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>25) <code>1 | x13 | x13 | 1 | &lt;&lt; | 1 | Reverse | &lt;&lt;</code><br>26) <code>1 | x13 | x13 | Reverse | Reverse | 1 | Reverse | &lt;&lt;</code><br>27) <code>1 | x13 | x13 | Reverse | &lt;&lt; | Reverse | 1 | Reverse</code><br>28) <code>1 | x13 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>29) <code>1 | x13 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>30) <code>1 | &lt;&lt; | 1 | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>31) <code>1 | &lt;&lt; | 1 | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>32) <code>1 | &lt;&lt; | +12 | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>33) <code>+12 | 1 | +12 | x13 | &lt;&lt; | +12 | +12</code><br>34) <code>+12 | 1 | +12 | &lt;&lt; | x13 | 1 | Reverse | &lt;&lt;</code><br>35) <code>+12 | 1 | x13 | &lt;&lt; | +12 | 1 | Reverse | &lt;&lt;</code><br>36) <code>+12 | 1 | x13 | &lt;&lt; | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>37) <code>+12 | 1 | &lt;&lt; | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>38) <code>+12 | +12 | 1 | Reverse | x13 | &lt;&lt; | +12</code><br>39) <code>+12 | +12 | +12 | +12 | 1 | Reverse | +12</code><br>40) <code>+12 | +12 | +12 | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>41) <code>+12 | Reverse | +12 | +12 | +12 | +12 | 1 | Reverse</code><br>42) <code>+12 | Reverse | +12 | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>43) <code>+12 | Reverse | Reverse | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>44) <code>+12 | Reverse | x13 | Reverse | &lt;&lt; | x13 | Reverse | +12</code><br>45) <code>+12 | Reverse | x13 | &lt;&lt; | 1 | Reverse | +12 | +12</code><br>46) <code>+12 | x13 | 1 | &lt;&lt; | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>47) <code>+12 | x13 | +12 | x13 | +12 | Reverse | &lt;&lt; | Reverse</code><br>48) <code>+12 | x13 | +12 | x13 | Reverse | &lt;&lt; | Reverse | +12</code><br>49) <code>+12 | x13 | Reverse | Reverse | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>50) <code>+12 | x13 | &lt;&lt; | 1 | 1 | x13 | &lt;&lt; | &lt;&lt;</code><br>51) <code>+12 | x13 | &lt;&lt; | 1 | 1 | &lt;&lt; | x13 | &lt;&lt;</code><br>52) <code>+12 | x13 | &lt;&lt; | 1 | x13 | 1 | &lt;&lt; | &lt;&lt;</code><br>53) <code>+12 | x13 | &lt;&lt; | 1 | x13 | Reverse | Reverse | &lt;&lt;</code><br>54) <code>+12 | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>55) <code>+12 | x13 | &lt;&lt; | 1 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>56) <code>+12 | x13 | &lt;&lt; | +12 | 1 | Reverse | +12 | +12</code><br>57) <code>+12 | x13 | &lt;&lt; | Reverse | Reverse | 1 | x13 | &lt;&lt;</code><br>58) <code>+12 | x13 | &lt;&lt; | x13 | 1 | +12 | &lt;&lt;</code><br>59) <code>+12 | x13 | &lt;&lt; | x13 | +12 | x13 | Reverse | &lt;&lt;</code><br>60) <code>+12 | &lt;&lt; | +12 | +12 | +12 | x13 | Reverse | +12</code><br>61) <code>+12 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>62) <code>+12 | &lt;&lt; | x13 | +12 | +12 | x13 | Reverse | +12</code><br>63) <code>+12 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code></td>
+  <td>1) <code>1 | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>2) <code>1 | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>3) <code>+12 | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>4) <code>+12 | 1 | +12 | x13 | &lt;&lt; | +12 | +12</code><br>5) <code>+12 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>6) <code>1 | +12 | +12 | +12 | x13 | Reverse | +12</code><br>7) <code>+12 | +12 | 1 | Reverse | x13 | &lt;&lt; | +12</code><br>8) <code>+12 | +12 | +12 | +12 | 1 | Reverse | +12</code><br>9) <code>1 | x13 | +12 | +12 | x13 | Reverse | +12</code><br>10) <code>+12 | x13 | &lt;&lt; | x13 | 1 | +12 | &lt;&lt;</code><br>11) <code>+12 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>12) <code>1 | +12 | x13 | 1 | &lt;&lt; | 1 | Reverse | &lt;&lt;</code><br>13) <code>1 | +12 | x13 | Reverse | Reverse | 1 | Reverse | &lt;&lt;</code><br>14) <code>1 | +12 | x13 | Reverse | &lt;&lt; | Reverse | 1 | Reverse</code><br>15) <code>1 | +12 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>16) <code>1 | +12 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>17) <code>1 | x13 | 1 | &lt;&lt; | x13 | 1 | Reverse | &lt;&lt;</code><br>18) <code>1 | +12 | 1 | &lt;&lt; | x13 | 1 | Reverse | &lt;&lt;</code><br>19) <code>1 | x13 | Reverse | Reverse | x13 | 1 | Reverse | &lt;&lt;</code><br>20) <code>1 | x13 | Reverse | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>21) <code>1 | x13 | x13 | 1 | 1 | &lt;&lt; | Reverse | &lt;&lt;</code><br>22) <code>1 | x13 | x13 | 1 | Reverse | 1 | &lt;&lt; | &lt;&lt;</code><br>23) <code>1 | x13 | x13 | 1 | Reverse | Reverse | Reverse | &lt;&lt;</code><br>24) <code>1 | 1 | x13 | +12 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>25) <code>1 | x13 | x13 | 1 | &lt;&lt; | 1 | Reverse | &lt;&lt;</code><br>26) <code>1 | x13 | x13 | Reverse | Reverse | 1 | Reverse | &lt;&lt;</code><br>27) <code>1 | x13 | x13 | Reverse | &lt;&lt; | Reverse | 1 | Reverse</code><br>28) <code>1 | x13 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>29) <code>1 | x13 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>30) <code>1 | &lt;&lt; | 1 | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>31) <code>1 | &lt;&lt; | 1 | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>32) <code>1 | 1 | &lt;&lt; | +12 | x13 | 1 | Reverse | &lt;&lt;</code><br>33) <code>1 | +12 | Reverse | Reverse | x13 | 1 | Reverse | &lt;&lt;</code><br>34) <code>+12 | 1 | +12 | &lt;&lt; | x13 | 1 | Reverse | &lt;&lt;</code><br>35) <code>+12 | 1 | x13 | &lt;&lt; | +12 | 1 | Reverse | &lt;&lt;</code><br>36) <code>+12 | 1 | x13 | &lt;&lt; | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>37) <code>+12 | 1 | &lt;&lt; | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>38) <code>1 | +12 | Reverse | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>39) <code>1 | +12 | x13 | 1 | 1 | &lt;&lt; | Reverse | &lt;&lt;</code><br>40) <code>+12 | +12 | +12 | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>41) <code>+12 | Reverse | +12 | +12 | +12 | +12 | 1 | Reverse</code><br>42) <code>+12 | Reverse | +12 | &lt;&lt; | +12 | 1 | x13 | &lt;&lt;</code><br>43) <code>+12 | Reverse | Reverse | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>44) <code>+12 | Reverse | x13 | Reverse | &lt;&lt; | x13 | Reverse | +12</code><br>45) <code>+12 | Reverse | x13 | &lt;&lt; | 1 | Reverse | +12 | +12</code><br>46) <code>+12 | x13 | 1 | &lt;&lt; | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>47) <code>+12 | x13 | +12 | x13 | +12 | Reverse | &lt;&lt; | Reverse</code><br>48) <code>+12 | x13 | +12 | x13 | Reverse | &lt;&lt; | Reverse | +12</code><br>49) <code>+12 | x13 | Reverse | Reverse | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>50) <code>+12 | x13 | &lt;&lt; | 1 | 1 | x13 | &lt;&lt; | &lt;&lt;</code><br>51) <code>+12 | x13 | &lt;&lt; | 1 | 1 | &lt;&lt; | x13 | &lt;&lt;</code><br>52) <code>+12 | x13 | &lt;&lt; | 1 | x13 | 1 | &lt;&lt; | &lt;&lt;</code><br>53) <code>+12 | x13 | &lt;&lt; | 1 | x13 | Reverse | Reverse | &lt;&lt;</code><br>54) <code>1 | +12 | x13 | 1 | Reverse | 1 | &lt;&lt; | &lt;&lt;</code><br>55) <code>+12 | x13 | &lt;&lt; | 1 | &lt;&lt; | 1 | x13 | &lt;&lt;</code><br>56) <code>+12 | x13 | &lt;&lt; | +12 | 1 | Reverse | +12 | +12</code><br>57) <code>+12 | x13 | &lt;&lt; | Reverse | Reverse | 1 | x13 | &lt;&lt;</code><br>58) <code>1 | +12 | x13 | 1 | Reverse | Reverse | Reverse | &lt;&lt;</code><br>59) <code>+12 | x13 | &lt;&lt; | x13 | +12 | x13 | Reverse | &lt;&lt;</code><br>60) <code>+12 | &lt;&lt; | +12 | +12 | +12 | x13 | Reverse | +12</code><br>61) <code>1 | 1 | &lt;&lt; | x13 | x13 | 1 | Reverse | &lt;&lt;</code><br>62) <code>+12 | &lt;&lt; | x13 | +12 | +12 | x13 | Reverse | +12</code><br>63) <code>1 | &lt;&lt; | +12 | x13 | &lt;&lt; | 1 | x13 | &lt;&lt;</code></td>
 </tr>
 <tr>
   <td>85</td>
@@ -712,7 +712,7 @@
   <td>101</td>
   <td>50</td>
   <td><code>1=>10 | +50 | Reverse | 5=>1</code></td>
-  <td>1) <code>+50 | 1=>10 | +50 | Reverse | 5=>1</code><br>2) <code>+50 | 1=>10 | +50 | 5=>1 | Reverse</code><br>3) <code>+50 | 1=>10 | Reverse | +50 | +50</code><br>4) <code>+50 | +50 | 1=>10 | Reverse | 5=>1</code><br>5) <code>+50 | +50 | 1=>10 | 5=>1 | Reverse</code><br>6) <code>+50 | +50 | Reverse | +50</code><br>7) <code>+50 | +50 | 5=>1 | 1=>10 | Reverse</code><br>8) <code>+50 | Reverse | +50 | +50</code><br>9) <code>Reverse | +50 | +50 | Reverse | 5=>1</code><br>10) <code>Reverse | +50 | +50 | 5=>1</code><br>11) <code>Reverse | +50 | 5=>1 | 1=>10 | Reverse</code><br>12) <code>Reverse | 5=>1 | +50 | +50</code><br>13) <code>5=>1 | 1=>10 | +50 | Reverse | +50</code><br>14) <code>5=>1 | 1=>10 | Reverse | +50 | +50</code><br>15) <code>5=>1 | +50 | +50 | 1=>10 | Reverse</code><br>16) <code>5=>1 | Reverse | +50 | +50</code></td>
+  <td>1) <code>5=>1 | Reverse | +50 | +50</code><br>2) <code>+50 | +50 | Reverse | +50</code><br>3) <code>+50 | Reverse | +50 | +50</code><br>4) <code>Reverse | +50 | +50 | 5=>1</code><br>5) <code>Reverse | 5=>1 | +50 | +50</code><br>6) <code>+50 | 1=>10 | +50 | Reverse | 5=>1</code><br>7) <code>+50 | +50 | 5=>1 | 1=>10 | Reverse</code><br>8) <code>+50 | 1=>10 | Reverse | +50 | +50</code><br>9) <code>+50 | 1=>10 | +50 | 5=>1 | Reverse</code><br>10) <code>+50 | +50 | 1=>10 | Reverse | 5=>1</code><br>11) <code>Reverse | +50 | 5=>1 | 1=>10 | Reverse</code><br>12) <code>+50 | +50 | 1=>10 | 5=>1 | Reverse</code><br>13) <code>5=>1 | 1=>10 | +50 | Reverse | +50</code><br>14) <code>5=>1 | 1=>10 | Reverse | +50 | +50</code><br>15) <code>5=>1 | +50 | +50 | 1=>10 | Reverse</code><br>16) <code>Reverse | +50 | +50 | Reverse | 5=>1</code></td>
 </tr>
 <tr>
   <td>86</td>
@@ -840,7 +840,7 @@
   <td>121</td>
   <td>59</td>
   <td><code>1 | x5 | 15=>51 | SUM</code></td>
-  <td>1) <code>1 | SUM | x5 | SUM | 1</code><br>2) <code>1 | SUM | 15=>51 | x5 | SUM | 1</code><br>3) <code>SUM | 1 | x5 | SUM | 1</code><br>4) <code>SUM | SUM | 1 | x5 | SUM | 1</code></td>
+  <td>1) <code>1 | SUM | x5 | SUM | 1</code><br>2) <code>SUM | 1 | x5 | SUM | 1</code><br>3) <code>1 | SUM | 15=>51 | x5 | SUM | 1</code><br>4) <code>SUM | SUM | 1 | x5 | SUM | 1</code></td>
 </tr>
 <tr>
   <td>102</td>
@@ -864,7 +864,7 @@
   <td>-17</td>
   <td>105</td>
   <td><code>-5 | /5 | +/- | x4 | SUM</code></td>
-  <td>1) <code>-5 | x4 | -5 | +/- | SUM</code><br>2) <code>-5 | x4 | -5 | SUM | +/-</code><br>3) <code>/5 | +/- | x4 | -5 | SUM</code><br>4) <code>/5 | +/- | x4 | SUM | -5</code><br>5) <code>/5 | +/- | SUM | x4 | -5</code><br>6) <code>/5 | x4 | +/- | -5 | SUM</code><br>7) <code>/5 | x4 | +/- | SUM | -5</code><br>8) <code>/5 | x4 | SUM | +/- | -5</code><br>9) <code>/5 | SUM | +/- | x4 | -5</code><br>10) <code>/5 | SUM | x4 | +/- | -5</code><br>11) <code>+/- | /5 | x4 | -5 | SUM</code><br>12) <code>+/- | /5 | x4 | SUM | -5</code><br>13) <code>+/- | /5 | SUM | x4 | -5</code><br>14) <code>+/- | x4 | -5 | /5 | /5</code><br>15) <code>+/- | x4 | /5 | -5 | SUM</code><br>16) <code>+/- | x4 | /5 | SUM | -5</code><br>17) <code>x4 | /5 | +/- | -5 | SUM</code><br>18) <code>x4 | /5 | +/- | SUM | -5</code><br>19) <code>x4 | /5 | SUM | +/- | -5</code><br>20) <code>x4 | +/- | -5 | /5 | /5</code><br>21) <code>x4 | +/- | /5 | -5 | SUM</code><br>22) <code>x4 | +/- | /5 | SUM | -5</code></td>
+  <td>1) <code>+/- | /5 | x4 | SUM | -5</code><br>2) <code>-5 | x4 | -5 | +/- | SUM</code><br>3) <code>/5 | +/- | x4 | -5 | SUM</code><br>4) <code>/5 | +/- | x4 | SUM | -5</code><br>5) <code>/5 | +/- | SUM | x4 | -5</code><br>6) <code>/5 | x4 | +/- | -5 | SUM</code><br>7) <code>/5 | x4 | +/- | SUM | -5</code><br>8) <code>/5 | x4 | SUM | +/- | -5</code><br>9) <code>/5 | SUM | +/- | x4 | -5</code><br>10) <code>/5 | SUM | x4 | +/- | -5</code><br>11) <code>+/- | /5 | x4 | -5 | SUM</code><br>12) <code>-5 | x4 | -5 | SUM | +/-</code><br>13) <code>+/- | /5 | SUM | x4 | -5</code><br>14) <code>+/- | x4 | -5 | /5 | /5</code><br>15) <code>+/- | x4 | /5 | -5 | SUM</code><br>16) <code>+/- | x4 | /5 | SUM | -5</code><br>17) <code>x4 | /5 | +/- | -5 | SUM</code><br>18) <code>x4 | /5 | +/- | SUM | -5</code><br>19) <code>x4 | /5 | SUM | +/- | -5</code><br>20) <code>x4 | +/- | -5 | /5 | /5</code><br>21) <code>x4 | +/- | /5 | -5 | SUM</code><br>22) <code>x4 | +/- | /5 | SUM | -5</code></td>
 </tr>
 <tr>
   <td>105</td>
@@ -888,7 +888,7 @@
   <td>11</td>
   <td>2</td>
   <td><code>x2 | 10 | x<sup>3</sup> | SUM | 10=>1</code></td>
-  <td>1) <code>x2 | 10 | x2 | x2 | SUM</code><br>2) <code>x2 | 10 | x2 | 10 | SUM</code><br>3) <code>x2 | x<sup>3</sup> | x2 | SUM</code><br>4) <code>x2 | x<sup>3</sup> | 10 | SUM</code><br>5) <code>x2 | x<sup>3</sup> | 10 | 10=>1 | SUM</code><br>6) <code>x2 | x<sup>3</sup> | SUM | 10 | 10=>1</code><br>7) <code>x<sup>3</sup> | 10 | 10 | x2 | SUM</code></td>
+  <td>1) <code>x2 | x<sup>3</sup> | x2 | SUM</code><br>2) <code>x2 | x<sup>3</sup> | 10 | SUM</code><br>3) <code>x2 | 10 | x2 | x2 | SUM</code><br>4) <code>x2 | 10 | x2 | 10 | SUM</code><br>5) <code>x2 | x<sup>3</sup> | 10 | 10=>1 | SUM</code><br>6) <code>x2 | x<sup>3</sup> | SUM | 10 | 10=>1</code><br>7) <code>x<sup>3</sup> | 10 | 10 | x2 | SUM</code></td>
 </tr>
 <tr>
   <td>108</td>
@@ -1056,7 +1056,7 @@
   <td>112</td>
   <td>13</td>
   <td><code>99=>60 | /3 | Mirror | x3 | Shift&gt;</code></td>
-  <td>1) <code>Mirror | x3 | 99=>60 | /3 | Shift&gt; | Shift&gt;</code><br>2) <code>Mirror | x3 | 99=>60 | Shift&gt; | /3 | Shift&gt;</code><br>3) <code>Mirror | x3 | 99=>60 | Shift&gt; | Shift&gt; | /3</code><br>4) <code>Mirror | x3 | Shift&gt; | 99=>60 | /3 | Shift&gt;</code><br>5) <code>Mirror | x3 | Shift&gt; | 99=>60 | Shift&gt; | /3</code><br>6) <code>Mirror | Shift&gt; | x3 | 99=>60 | /3 | Shift&gt;</code><br>7) <code>Mirror | Shift&gt; | x3 | 99=>60 | Shift&gt; | /3</code><br>8) <code>x3 | Mirror | 99=>60 | /3 | Shift&gt; | Shift&gt;</code><br>9) <code>x3 | Mirror | 99=>60 | Shift&gt; | /3 | Shift&gt;</code><br>10) <code>x3 | Mirror | 99=>60 | Shift&gt; | Shift&gt; | /3</code><br>11) <code>x3 | Mirror | Shift&gt; | 99=>60 | /3 | Shift&gt;</code><br>12) <code>x3 | Mirror | Shift&gt; | 99=>60 | Shift&gt; | /3</code></td>
+  <td>1) <code>Mirror | Shift&gt; | x3 | 99=>60 | Shift&gt; | /3</code><br>2) <code>Mirror | x3 | 99=>60 | /3 | Shift&gt; | Shift&gt;</code><br>3) <code>Mirror | x3 | 99=>60 | Shift&gt; | Shift&gt; | /3</code><br>4) <code>Mirror | x3 | Shift&gt; | 99=>60 | /3 | Shift&gt;</code><br>5) <code>Mirror | x3 | Shift&gt; | 99=>60 | Shift&gt; | /3</code><br>6) <code>Mirror | Shift&gt; | x3 | 99=>60 | /3 | Shift&gt;</code><br>7) <code>Mirror | x3 | 99=>60 | Shift&gt; | /3 | Shift&gt;</code><br>8) <code>x3 | Mirror | 99=>60 | /3 | Shift&gt; | Shift&gt;</code><br>9) <code>x3 | Mirror | 99=>60 | Shift&gt; | /3 | Shift&gt;</code><br>10) <code>x3 | Mirror | 99=>60 | Shift&gt; | Shift&gt; | /3</code><br>11) <code>x3 | Mirror | Shift&gt; | 99=>60 | /3 | Shift&gt;</code><br>12) <code>x3 | Mirror | Shift&gt; | 99=>60 | Shift&gt; | /3</code></td>
 </tr>
 <tr>
   <td>129</td>
@@ -1064,7 +1064,7 @@
   <td>18</td>
   <td>140</td>
   <td><code>-3 | +9 | Mirror | /12 | &lt;&lt;</code></td>
-  <td>1) <code>-3 | &lt;&lt; | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>2) <code>+9 | +9 | +9 | +9 | +9 | &lt;&lt;</code><br>3) <code>+9 | +9 | &lt;&lt; | -3 | -3 | +9</code><br>4) <code>+9 | +9 | &lt;&lt; | -3 | +9 | -3</code><br>5) <code>+9 | +9 | &lt;&lt; | +9 | -3 | -3</code><br>6) <code>+9 | &lt;&lt; | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>7) <code>&lt;&lt; | -3 | -3 | &lt;&lt; | +9 | +9</code><br>8) <code>&lt;&lt; | -3 | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>9) <code>&lt;&lt; | +9 | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>10) <code>&lt;&lt; | Mirror | &lt;&lt; | /12 | -3 | +9</code><br>11) <code>&lt;&lt; | Mirror | &lt;&lt; | /12 | +9 | -3</code><br>12) <code>&lt;&lt; | &lt;&lt; | -3 | &lt;&lt; | +9 | +9</code><br>13) <code>&lt;&lt; | &lt;&lt; | &lt;&lt; | +9 | +9</code></td>
+  <td>1) <code>&lt;&lt; | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>2) <code>-3 | &lt;&lt; | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>3) <code>+9 | +9 | &lt;&lt; | -3 | -3 | +9</code><br>4) <code>+9 | +9 | &lt;&lt; | -3 | +9 | -3</code><br>5) <code>+9 | +9 | &lt;&lt; | +9 | -3 | -3</code><br>6) <code>+9 | &lt;&lt; | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>7) <code>+9 | +9 | +9 | +9 | +9 | &lt;&lt;</code><br>8) <code>&lt;&lt; | -3 | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>9) <code>&lt;&lt; | +9 | &lt;&lt; | &lt;&lt; | +9 | +9</code><br>10) <code>&lt;&lt; | Mirror | &lt;&lt; | /12 | -3 | +9</code><br>11) <code>&lt;&lt; | Mirror | &lt;&lt; | /12 | +9 | -3</code><br>12) <code>&lt;&lt; | &lt;&lt; | -3 | &lt;&lt; | +9 | +9</code><br>13) <code>&lt;&lt; | -3 | -3 | &lt;&lt; | +9 | +9</code></td>
 </tr>
 <tr>
   <td>130</td>
@@ -1256,7 +1256,7 @@
   <td>17</td>
   <td>70</td>
   <td><code>8=>1 | /2 | Store | 0 | SUM</code></td>
-  <td>1) <code>/2 | Store | SUM | 8=>1 | 35 | 35 | SUM</code><br>2) <code>/2 | Store | SUM | 35 | 8=>1 | 35 | SUM</code><br>3) <code>/2 | Store | SUM | 35 | 0 | /2 | SUM</code><br>4) <code>/2 | Store | SUM | 35 | 35 | 8=>1 | SUM</code><br>5) <code>/2 | 0 | /2 | Store | SUM | 175 | SUM</code><br>6) <code>/2 | 0 | Store | SUM | 350 | /2 | SUM</code><br>7) <code>/2 | SUM | Store | 8=>1 | 8 | 8 | SUM</code><br>8) <code>Store | SUM | 70 | /2 | 0 | /2 | SUM</code><br>9) <code>Store | SUM | 70 | 0 | /2 | /2 | SUM</code><br>10) <code>Store | SUM | 70 | 70 | /2 | 8=>1 | SUM</code><br>11) <code>Store | 70 | /2 | 70 | /2 | SUM | /2</code><br>12) <code>Store | 70 | SUM | Store | /2 | 14 | 14 | SUM</code><br>13) <code>Store | 70 | 70 | SUM | 70 | 70 | SUM</code><br>14) <code>0 | /2 | /2 | Store | SUM | 175 | SUM</code><br>15) <code>0 | /2 | Store | SUM | 350 | /2 | SUM</code><br>16) <code>0 | Store | SUM | 700 | /2 | /2 | SUM</code><br>17) <code>SUM | Store | 0 | /2 | SUM | 8=>1 | 7</code><br>18) <code>SUM | Store | 0 | /2 | SUM | 7 | 8=>1</code></td>
+  <td>1) <code>Store | SUM | 70 | 70 | /2 | 8=>1 | SUM</code><br>2) <code>/2 | Store | SUM | 8=>1 | 35 | 35 | SUM</code><br>3) <code>/2 | Store | SUM | 35 | 0 | /2 | SUM</code><br>4) <code>/2 | Store | SUM | 35 | 35 | 8=>1 | SUM</code><br>5) <code>/2 | 0 | /2 | Store | SUM | 175 | SUM</code><br>6) <code>/2 | 0 | Store | SUM | 350 | /2 | SUM</code><br>7) <code>/2 | SUM | Store | 8=>1 | 8 | 8 | SUM</code><br>8) <code>Store | SUM | 70 | /2 | 0 | /2 | SUM</code><br>9) <code>Store | SUM | 70 | 0 | /2 | /2 | SUM</code><br>10) <code>/2 | Store | SUM | 35 | 8=>1 | 35 | SUM</code><br>11) <code>Store | 70 | /2 | 70 | /2 | SUM | /2</code><br>12) <code>SUM | Store | 0 | /2 | SUM | 8=>1 | 7</code><br>13) <code>Store | 70 | 70 | SUM | 70 | 70 | SUM</code><br>14) <code>0 | /2 | /2 | Store | SUM | 175 | SUM</code><br>15) <code>0 | /2 | Store | SUM | 350 | /2 | SUM</code><br>16) <code>0 | Store | SUM | 700 | /2 | /2 | SUM</code><br>17) <code>SUM | Store | 0 | /2 | SUM | 7 | 8=>1</code><br>18) <code>Store | 70 | SUM | Store | /2 | 14 | 14 | SUM</code></td>
 </tr>
 <tr>
   <td>154</td>
@@ -1416,7 +1416,7 @@
   <td>33</td>
   <td>5</td>
   <td><code>x7 | +8 | Inv10 | -9 | x2</code></td>
-  <td>1) <code>x7 | +8 | +8 | -9 | -9</code><br>2) <code>x7 | +8 | -9 | +8 | -9</code><br>3) <code>x7 | +8 | -9 | -9 | +8</code><br>4) <code>x7 | +8 | x2 | -9 | Inv10</code><br>5) <code>x7 | -9 | +8 | +8 | -9</code><br>6) <code>x7 | -9 | +8 | -9 | +8</code><br>7) <code>x7 | -9 | -9 | +8 | +8</code><br>8) <code>+8 | +8 | x2 | -9</code><br>9) <code>+8 | -9 | Inv10 | x7 | -9</code><br>10) <code>+8 | x2 | +8 | +8 | -9</code><br>11) <code>+8 | x2 | +8 | -9 | +8</code><br>12) <code>+8 | x2 | -9 | +8 | +8</code><br>13) <code>-9 | +8 | Inv10 | x7 | -9</code><br>14) <code>x2 | x2 | -9 | x7 | Inv10</code></td>
+  <td>1) <code>+8 | +8 | x2 | -9</code><br>2) <code>x7 | +8 | +8 | -9 | -9</code><br>3) <code>x7 | +8 | -9 | -9 | +8</code><br>4) <code>x7 | +8 | x2 | -9 | Inv10</code><br>5) <code>x7 | -9 | +8 | +8 | -9</code><br>6) <code>x7 | -9 | +8 | -9 | +8</code><br>7) <code>x7 | -9 | -9 | +8 | +8</code><br>8) <code>x7 | +8 | -9 | +8 | -9</code><br>9) <code>+8 | -9 | Inv10 | x7 | -9</code><br>10) <code>+8 | x2 | +8 | +8 | -9</code><br>11) <code>+8 | x2 | +8 | -9 | +8</code><br>12) <code>+8 | x2 | -9 | +8 | +8</code><br>13) <code>-9 | +8 | Inv10 | x7 | -9</code><br>14) <code>x2 | x2 | -9 | x7 | Inv10</code></td>
 </tr>
 <tr>
   <td>174</td>
@@ -1424,7 +1424,7 @@
   <td>23</td>
   <td>12</td>
   <td><code>x5 | SUM | Store | Inv10</code></td>
-  <td>1) <code>x5 | Store | 60 | SUM | Inv10 | 60 | SUM</code><br>2) <code>SUM | Store | Inv10 | x5 | SUM | Inv10 | 3</code><br>3) <code>SUM | Inv10 | Store | x5 | SUM | 7 | Inv10</code><br>4) <code>SUM | Inv10 | Store | 7 | x5 | 7 | SUM</code><br>5) <code>Store | x5 | SUM | Inv10 | 12 | Inv10 | SUM</code><br>6) <code>Store | x5 | Inv10 | SUM | 12 | Inv10 | SUM</code><br>7) <code>Store | x5 | Inv10 | 12 | Inv10 | SUM</code><br>8) <code>Store | SUM | x5 | Inv10 | 12 | Inv10 | SUM</code><br>9) <code>Store | SUM | Inv10 | 12 | Inv10 | 12 | SUM</code><br>10) <code>Store | SUM | 12 | Inv10 | 12 | Inv10 | SUM</code><br>11) <code>Store | Inv10 | x5 | 12 | x5 | Inv10 | SUM</code><br>12) <code>Store | Inv10 | 12 | Inv10 | 12 | SUM</code><br>13) <code>Store | Inv10 | 12 | 12 | SUM</code><br>14) <code>Store | 12 | SUM | Inv10 | 12 | Inv10 | SUM</code><br>15) <code>Store | 12 | Store | x5 | SUM | Inv10 | 1212 | SUM</code><br>16) <code>Store | 12 | Inv10 | 12 | Inv10 | SUM</code><br>17) <code>Inv10 | x5 | Store | SUM | 490 | Inv10 | SUM</code><br>18) <code>Inv10 | SUM | Store | Inv10 | x5 | 17 | SUM</code><br>19) <code>Inv10 | SUM | Store | 17 | Store | SUM | 1717 | SUM</code><br>20) <code>Inv10 | Store | 98 | Inv10 | SUM | 98 | SUM</code><br>21) <code>Inv10 | Store | 98 | Inv10 | 98 | SUM</code><br>22) <code>Inv10 | Store | 98 | 98 | SUM | 98 | SUM</code></td>
+  <td>1) <code>Store | Inv10 | 12 | 12 | SUM</code><br>2) <code>Store | Inv10 | 12 | Inv10 | 12 | SUM</code><br>3) <code>Store | x5 | Inv10 | 12 | Inv10 | SUM</code><br>4) <code>Inv10 | Store | 98 | Inv10 | 98 | SUM</code><br>5) <code>Store | 12 | Inv10 | 12 | Inv10 | SUM</code><br>6) <code>Store | x5 | Inv10 | SUM | 12 | Inv10 | SUM</code><br>7) <code>x5 | Store | 60 | SUM | Inv10 | 60 | SUM</code><br>8) <code>Store | SUM | x5 | Inv10 | 12 | Inv10 | SUM</code><br>9) <code>Store | SUM | Inv10 | 12 | Inv10 | 12 | SUM</code><br>10) <code>Store | SUM | 12 | Inv10 | 12 | Inv10 | SUM</code><br>11) <code>Store | Inv10 | x5 | 12 | x5 | Inv10 | SUM</code><br>12) <code>SUM | Store | Inv10 | x5 | SUM | Inv10 | 3</code><br>13) <code>SUM | Inv10 | Store | x5 | SUM | 7 | Inv10</code><br>14) <code>Store | 12 | SUM | Inv10 | 12 | Inv10 | SUM</code><br>15) <code>SUM | Inv10 | Store | 7 | x5 | 7 | SUM</code><br>16) <code>Store | x5 | SUM | Inv10 | 12 | Inv10 | SUM</code><br>17) <code>Inv10 | x5 | Store | SUM | 490 | Inv10 | SUM</code><br>18) <code>Inv10 | SUM | Store | Inv10 | x5 | 17 | SUM</code><br>19) <code>Inv10 | Store | 98 | Inv10 | SUM | 98 | SUM</code><br>20) <code>Inv10 | Store | 98 | 98 | SUM | 98 | SUM</code><br>21) <code>Inv10 | SUM | Store | 17 | Store | SUM | 1717 | SUM</code><br>22) <code>Store | 12 | Store | x5 | SUM | Inv10 | 1212 | SUM</code></td>
 </tr>
 <tr>
   <td>175</td>
@@ -1448,7 +1448,7 @@
   <td>48</td>
   <td>51</td>
   <td><code>+6 | x3 | Reverse | Inv10 | 4=>6</code></td>
-  <td>1) <code>+6 | +6 | Reverse | +6 | +6</code><br>2) <code>+6 | +6 | Reverse | +6 | 4=>6 | Inv10</code><br>3) <code>Reverse | +6 | x3 | Reverse | +6 | +6</code><br>4) <code>Reverse | +6 | Reverse | x3 | +6 | +6</code><br>5) <code>Reverse | x3 | Reverse | Inv10 | +6 | Inv10</code><br>6) <code>Reverse | x3 | Reverse | 4=>6 | +6 | Inv10</code><br>7) <code>Reverse | x3 | Inv10 | Reverse | +6 | Inv10</code><br>8) <code>Reverse | x3 | 4=>6 | Reverse | +6 | Inv10</code><br>9) <code>Inv10 | +6 | Reverse | +6 | Inv10</code></td>
+  <td>1) <code>+6 | +6 | Reverse | +6 | +6</code><br>2) <code>Inv10 | +6 | Reverse | +6 | Inv10</code><br>3) <code>+6 | +6 | Reverse | +6 | 4=>6 | Inv10</code><br>4) <code>Reverse | +6 | x3 | Reverse | +6 | +6</code><br>5) <code>Reverse | +6 | Reverse | x3 | +6 | +6</code><br>6) <code>Reverse | x3 | Reverse | Inv10 | +6 | Inv10</code><br>7) <code>Reverse | x3 | Reverse | 4=>6 | +6 | Inv10</code><br>8) <code>Reverse | x3 | Inv10 | Reverse | +6 | Inv10</code><br>9) <code>Reverse | x3 | 4=>6 | Reverse | +6 | Inv10</code></td>
 </tr>
 <tr>
   <td>178</td>
@@ -1456,7 +1456,7 @@
   <td>1</td>
   <td>0</td>
   <td><code>+5 | x3 | Inv10 | /6 | Reverse</code></td>
-  <td>1) <code>+5 | +5 | +5 | Inv10 | +5 | Reverse</code><br>2) <code>+5 | +5 | x3 | x3 | Inv10 | Reverse</code><br>3) <code>+5 | +5 | x3 | x3 | Reverse | Inv10</code><br>4) <code>+5 | +5 | x3 | /6 | +5 | Reverse</code><br>5) <code>+5 | +5 | x3 | Reverse | x3 | Inv10</code><br>6) <code>+5 | +5 | Inv10 | +5 | +5 | Reverse</code><br>7) <code>+5 | +5 | Inv10 | Reverse | Inv10</code><br>8) <code>+5 | +5 | Reverse</code><br>9) <code>+5 | x3 | +5 | x3 | /6 | Reverse</code><br>10) <code>+5 | x3 | +5 | x3 | Reverse | /6</code><br>11) <code>+5 | x3 | +5 | Reverse | x3 | /6</code><br>12) <code>+5 | x3 | x3 | Reverse | /6 | Inv10</code><br>13) <code>+5 | x3 | Inv10 | +5 | Reverse</code></td>
+  <td>1) <code>+5 | +5 | Reverse</code><br>2) <code>+5 | +5 | Inv10 | Reverse | Inv10</code><br>3) <code>+5 | x3 | Inv10 | +5 | Reverse</code><br>4) <code>+5 | +5 | x3 | /6 | +5 | Reverse</code><br>5) <code>+5 | +5 | x3 | Reverse | x3 | Inv10</code><br>6) <code>+5 | +5 | Inv10 | +5 | +5 | Reverse</code><br>7) <code>+5 | +5 | x3 | x3 | Inv10 | Reverse</code><br>8) <code>+5 | +5 | x3 | x3 | Reverse | Inv10</code><br>9) <code>+5 | x3 | +5 | x3 | /6 | Reverse</code><br>10) <code>+5 | x3 | +5 | x3 | Reverse | /6</code><br>11) <code>+5 | x3 | +5 | Reverse | x3 | /6</code><br>12) <code>+5 | x3 | x3 | Reverse | /6 | Inv10</code><br>13) <code>+5 | +5 | +5 | Inv10 | +5 | Reverse</code></td>
 </tr>
 <tr>
   <td>179</td>
@@ -1512,7 +1512,7 @@
   <td>150</td>
   <td>525</td>
   <td><code>+1 | 6 | /2 | 7</code></td>
-  <td>1) <code>6 | +1 | 6 | /2 | 7</code><br>2) <code>7 | 6 | /2 | 6 | +1</code><br>3) <code>7 | 6 | /2 | 7</code></td>
+  <td>1) <code>7 | 6 | /2 | 7</code><br>2) <code>6 | +1 | 6 | /2 | 7</code><br>3) <code>7 | 6 | /2 | 6 | +1</code></td>
 </tr>
 <tr>
   <td>186</td>
@@ -1536,7 +1536,7 @@
   <td>822</td>
   <td>25</td>
   <td><code>Mirror | 5 | Store | &lt;&lt;</code></td>
-  <td>1) <code>Mirror | Store | Mirror | 572 | Store | 672</code><br>2) <code>Mirror | Store | 572 | Store | Mirror | 712</code><br>3) <code>Mirror | Store | 572 | Store | 712 | 712</code><br>4) <code>Mirror | Store | 572 | 572 | Store | 672</code><br>5) <code>5 | Mirror | Store | Mirror | Mirror | 672</code><br>6) <code>5 | Mirror | Store | 5 | &lt;&lt; | 672</code><br>7) <code>5 | Mirror | Store | 672</code><br>8) <code>5 | &lt;&lt; | 5 | Mirror | Store | 672</code><br>9) <code>&lt;&lt; | 5 | 5 | Mirror | Store | 672</code><br>10) <code>&lt;&lt; | Store | 5 | Mirror | 5 | 2</code></td>
+  <td>1) <code>5 | Mirror | Store | 672</code><br>2) <code>Mirror | Store | Mirror | 572 | Store | 672</code><br>3) <code>Mirror | Store | 572 | Store | Mirror | 712</code><br>4) <code>Mirror | Store | 572 | Store | 712 | 712</code><br>5) <code>Mirror | Store | 572 | 572 | Store | 672</code><br>6) <code>5 | Mirror | Store | Mirror | Mirror | 672</code><br>7) <code>5 | Mirror | Store | 5 | &lt;&lt; | 672</code><br>8) <code>5 | &lt;&lt; | 5 | Mirror | Store | 672</code><br>9) <code>&lt;&lt; | 5 | 5 | Mirror | Store | 672</code><br>10) <code>&lt;&lt; | Store | 5 | Mirror | 5 | 2</code></td>
 </tr>
 <tr>
   <td>189</td>
@@ -1568,7 +1568,7 @@
   <td>500</td>
   <td>189</td>
   <td><code>+8 | x4 | Inv10 | 9 | 7=>0</code></td>
-  <td>1) <code>+8 | +8 | +8 | 9 | +8 | 9</code><br>2) <code>+8 | Inv10 | 9 | +8 | 9 | 7=>0</code><br>3) <code>x4 | x4 | 9 | +8 | x4 | 9</code><br>4) <code>x4 | x4 | 9 | x4 | +8 | x4</code><br>5) <code>x4 | 7=>0 | 9 | +8 | 7=>0</code><br>6) <code>9 | x4 | +8 | Inv10 | +8 | 7=>0</code><br>7) <code>9 | x4 | +8 | 9 | x4</code></td>
+  <td>1) <code>x4 | 7=>0 | 9 | +8 | 7=>0</code><br>2) <code>9 | x4 | +8 | 9 | x4</code><br>3) <code>+8 | +8 | +8 | 9 | +8 | 9</code><br>4) <code>+8 | Inv10 | 9 | +8 | 9 | 7=>0</code><br>5) <code>x4 | x4 | 9 | +8 | x4 | 9</code><br>6) <code>x4 | x4 | 9 | x4 | +8 | x4</code><br>7) <code>9 | x4 | +8 | Inv10 | +8 | 7=>0</code></td>
 </tr>
 <tr>
   <td>193</td>
@@ -1592,7 +1592,7 @@
   <td>777</td>
   <td>613</td>
   <td><code>5 | x2 | Reverse | +3 | Inv10</code></td>
-  <td>1) <code>5 | 5 | x2 | 5 | Inv10</code><br>2) <code>x2 | 5 | 5</code><br>3) <code>x2 | 5 | Reverse | Reverse | 5</code><br>4) <code>x2 | Reverse | Reverse | 5 | 5</code><br>5) <code>x2 | Reverse | Inv10 | 5 | x2</code><br>6) <code>x2 | Inv10 | Reverse | 5 | x2</code><br>7) <code>Reverse | 5 | x2 | Inv10 | +3</code><br>8) <code>Reverse | Reverse | x2 | 5 | 5</code><br>9) <code>Reverse | +3 | x2 | x2 | 5</code></td>
+  <td>1) <code>x2 | 5 | 5</code><br>2) <code>5 | 5 | x2 | 5 | Inv10</code><br>3) <code>x2 | 5 | Reverse | Reverse | 5</code><br>4) <code>x2 | Reverse | Reverse | 5 | 5</code><br>5) <code>x2 | Reverse | Inv10 | 5 | x2</code><br>6) <code>x2 | Inv10 | Reverse | 5 | x2</code><br>7) <code>Reverse | 5 | x2 | Inv10 | +3</code><br>8) <code>Reverse | Reverse | x2 | 5 | 5</code><br>9) <code>Reverse | +3 | x2 | x2 | 5</code></td>
 </tr>
 <tr>
   <td>196</td>
@@ -1600,7 +1600,7 @@
   <td>550</td>
   <td>60</td>
   <td><code>+5 | x5 | Inv10 | 2</code></td>
-  <td>1) <code>+5 | +5 | Inv10 | 2 | +5 | x5 | +5</code><br>2) <code>+5 | +5 | 2 | +5 | x5 | Inv10 | +5</code><br>3) <code>+5 | +5 | 2 | +5 | Inv10 | +5 | x5</code><br>4) <code>+5 | +5 | 2 | x5 | +5 | +5</code><br>5) <code>+5 | +5 | 2 | Inv10 | x5</code><br>6) <code>+5 | 2 | +5 | x5 | x5 | 2 | x5</code><br>7) <code>+5 | 2 | x5 | Inv10 | x5 | 2 | x5</code><br>8) <code>x5 | +5 | +5 | +5 | x5 | 2 | x5</code><br>9) <code>x5 | +5 | +5 | x5 | +5 | Inv10 | +5</code><br>10) <code>x5 | +5 | +5 | x5 | Inv10 | +5 | +5</code><br>11) <code>x5 | +5 | x5 | +5 | +5 | +5</code><br>12) <code>x5 | +5 | x5 | x5 | x5 | x5 | +5</code><br>13) <code>x5 | +5 | x5 | x5 | 2 | x5 | x5</code><br>14) <code>x5 | +5 | 2 | 2 | Inv10 | 2 | x5</code><br>15) <code>x5 | Inv10 | x5 | +5 | +5 | +5 | +5</code><br>16) <code>x5 | 2 | x5 | 2 | x5 | 2 | x5</code><br>17) <code>x5 | 2 | 2 | +5 | Inv10 | 2 | x5</code><br>18) <code>Inv10 | +5 | Inv10 | +5 | 2 | Inv10 | x5</code><br>19) <code>Inv10 | x5 | x5 | Inv10 | 2 | x5</code><br>20) <code>Inv10 | x5 | 2 | x5 | x5</code><br>21) <code>Inv10 | x5 | 2 | Inv10 | 2 | 2 | x5</code><br>22) <code>Inv10 | 2 | x5 | Inv10 | 2 | Inv10 | x5</code><br>23) <code>Inv10 | 2 | x5 | 2 | +5 | x5 | +5</code><br>24) <code>Inv10 | 2 | Inv10 | x5 | 2 | Inv10 | x5</code><br>25) <code>2 | +5 | +5 | x5 | 2 | x5</code><br>26) <code>2 | +5 | x5 | +5 | 2 | Inv10 | x5</code><br>27) <code>2 | x5 | x5 | x5 | Inv10 | 2 | x5</code><br>28) <code>2 | x5 | x5 | 2 | x5 | x5</code><br>29) <code>2 | Inv10 | +5 | +5 | x5 | x5</code><br>30) <code>2 | Inv10 | +5 | x5 | +5 | 2 | x5</code><br>31) <code>2 | Inv10 | +5 | Inv10 | +5 | Inv10 | x5</code><br>32) <code>2 | 2 | x5 | x5 | 2 | Inv10 | x5</code><br>33) <code>2 | 2 | 2 | Inv10 | 2 | x5</code><br>34) <code>2 | 2 | 2 | 2 | +5 | x5 | +5</code></td>
+  <td>1) <code>+5 | +5 | 2 | Inv10 | x5</code><br>2) <code>Inv10 | x5 | 2 | x5 | x5</code><br>3) <code>+5 | +5 | 2 | x5 | +5 | +5</code><br>4) <code>x5 | +5 | x5 | +5 | +5 | +5</code><br>5) <code>Inv10 | x5 | x5 | Inv10 | 2 | x5</code><br>6) <code>2 | +5 | +5 | x5 | 2 | x5</code><br>7) <code>2 | x5 | x5 | 2 | x5 | x5</code><br>8) <code>2 | Inv10 | +5 | +5 | x5 | x5</code><br>9) <code>2 | 2 | 2 | Inv10 | 2 | x5</code><br>10) <code>Inv10 | +5 | Inv10 | +5 | 2 | Inv10 | x5</code><br>11) <code>+5 | +5 | Inv10 | 2 | +5 | x5 | +5</code><br>12) <code>x5 | +5 | x5 | x5 | x5 | x5 | +5</code><br>13) <code>x5 | +5 | x5 | x5 | 2 | x5 | x5</code><br>14) <code>x5 | +5 | 2 | 2 | Inv10 | 2 | x5</code><br>15) <code>x5 | Inv10 | x5 | +5 | +5 | +5 | +5</code><br>16) <code>x5 | 2 | x5 | 2 | x5 | 2 | x5</code><br>17) <code>x5 | 2 | 2 | +5 | Inv10 | 2 | x5</code><br>18) <code>+5 | +5 | 2 | +5 | x5 | Inv10 | +5</code><br>19) <code>+5 | +5 | 2 | +5 | Inv10 | +5 | x5</code><br>20) <code>+5 | 2 | +5 | x5 | x5 | 2 | x5</code><br>21) <code>Inv10 | x5 | 2 | Inv10 | 2 | 2 | x5</code><br>22) <code>Inv10 | 2 | x5 | Inv10 | 2 | Inv10 | x5</code><br>23) <code>Inv10 | 2 | x5 | 2 | +5 | x5 | +5</code><br>24) <code>Inv10 | 2 | Inv10 | x5 | 2 | Inv10 | x5</code><br>25) <code>+5 | 2 | x5 | Inv10 | x5 | 2 | x5</code><br>26) <code>2 | +5 | x5 | +5 | 2 | Inv10 | x5</code><br>27) <code>2 | x5 | x5 | x5 | Inv10 | 2 | x5</code><br>28) <code>x5 | +5 | +5 | +5 | x5 | 2 | x5</code><br>29) <code>x5 | +5 | +5 | x5 | +5 | Inv10 | +5</code><br>30) <code>2 | Inv10 | +5 | x5 | +5 | 2 | x5</code><br>31) <code>2 | Inv10 | +5 | Inv10 | +5 | Inv10 | x5</code><br>32) <code>2 | 2 | x5 | x5 | 2 | Inv10 | x5</code><br>33) <code>x5 | +5 | +5 | x5 | Inv10 | +5 | +5</code><br>34) <code>2 | 2 | 2 | 2 | +5 | x5 | +5</code></td>
 </tr>
 <tr>
   <td>197</td>
@@ -1616,7 +1616,7 @@
   <td>750</td>
   <td>4</td>
   <td><code>+6 | 4 | Inv10 | x3</code></td>
-  <td>1) <code>+6 | x3 | +6 | Inv10 | 4 | +6</code><br>2) <code>Inv10 | +6 | +6 | +6 | 4 | +6 | x3</code><br>3) <code>Inv10 | +6 | 4 | x3 | Inv10 | +6 | +6</code><br>4) <code>Inv10 | +6 | x3 | Inv10 | 4 | +6</code><br>5) <code>Inv10 | x3 | +6 | 4 | +6 | x3</code><br>6) <code>x3 | +6 | +6 | 4 | +6 | x3</code><br>7) <code>x3 | 4 | x3 | Inv10 | +6 | +6</code><br>8) <code>x3 | x3 | +6 | Inv10 | +6 | 4 | +6</code><br>9) <code>x3 | x3 | Inv10 | 4 | +6</code></td>
+  <td>1) <code>x3 | x3 | Inv10 | 4 | +6</code><br>2) <code>+6 | x3 | +6 | Inv10 | 4 | +6</code><br>3) <code>Inv10 | +6 | x3 | Inv10 | 4 | +6</code><br>4) <code>Inv10 | x3 | +6 | 4 | +6 | x3</code><br>5) <code>x3 | +6 | +6 | 4 | +6 | x3</code><br>6) <code>x3 | 4 | x3 | Inv10 | +6 | +6</code><br>7) <code>Inv10 | +6 | +6 | +6 | 4 | +6 | x3</code><br>8) <code>Inv10 | +6 | 4 | x3 | Inv10 | +6 | +6</code><br>9) <code>x3 | x3 | +6 | Inv10 | +6 | 4 | +6</code></td>
 </tr>
 <tr>
   <td>199</td>

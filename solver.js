@@ -8,7 +8,7 @@ module.exports = class Solver {
     this.operators = operators.slice();
     this.portal = portal;
     this.store = false;
-    this.cash = null;
+    this.cache = null;
 
     for (let i = 0, l = this.operators.length; i < l; i++) {
       if (this.operators[i].constructor === StoreOperator) {
@@ -22,7 +22,7 @@ module.exports = class Solver {
     let {moves, operators, store} = this;
     let results = {};
     let maxOrderLen = moves * (store ? 2 : 1); // if we have store operator, then we can click it before each move
-    this.cash = {};
+    this.cache = {};
 
     for (let i = 0; true; i++) {
       let radix = operators.length;
@@ -30,10 +30,10 @@ module.exports = class Solver {
       if (sOrder.length > maxOrderLen) break;
       sOrder = `0`.repeat(maxOrderLen - sOrder.length) + sOrder;
 
-      let inCashLen = this._inCash(sOrder);
+      let part = this._inCache(sOrder);
 
-      if (inCashLen) {
-        i += Math.pow(radix, sOrder.length - inCashLen - 1) - 1;  // todo check
+      if (part) {
+        i += Math.pow(radix, sOrder.length - part.length) - sOrder.slice(part.length) - 1;
         continue;
       }
 
@@ -42,11 +42,11 @@ module.exports = class Solver {
       operators.forEach(operator => operator.reset());
     }
 
-    return Object.keys(results);
+    return Object.keys(results).sort((a, b) => a.split(`|`).length - b.split(`|`).length);
   }
 
   _process(sOrder) {
-    let {moves, goal, total, operators, portal, cash} = this;
+    let {moves, goal, total, operators, portal, cache} = this;
     let order = sOrder.split(``);
     let options = {moves, total, operators};
     let res = ``;
@@ -67,22 +67,20 @@ module.exports = class Solver {
       if (success || options.moves === 0) break;
     }
 
-    cash[sOrder.slice(0, i + 1)] = true;
+    cache[sOrder.slice(0, i + 1)] = true;
     return success ? res.slice(0, -3) : ``;
   }
 
-  _inCash(order) {
-    let {cash} = this;
+  _inCache(order) {
+    let {cache} = this;
     let part = order;
 
     while (part.length !== 0) {
-      if (cash[part]) {
-        return part.length;
+      if (cache[part]) {
+        return part;
       }
 
       part = part.slice(0, -1);
     }
-
-    return false;
   }
 };
