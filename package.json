@@ -1,0 +1,12 @@
+{
+  "name": "calculator-the-game-solutions",
+  "version": "0.9.99",
+  "description": "Solutions generator for Calculator: The Game - google play, app store game",
+  "main": "main.js",
+  "keywords": [
+    "calculator",
+    "game"
+  ],
+  "author": "RJA",
+  "license": "MIT"
+}
